@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bernardino Villagra - Portafolio</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Fuente Open Sans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<!-- Fuente de iconos -->
+	<link rel="stylesheet" href="css/fontello.css">
+	<!-- Estilos propios -->
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<!-- Menu del sitio -->
+			<div class="nav row rounded-top align-items-stretch justify-content-between">
+				<!-- Logotipo -->
+				<div class="logo col-md-12 col-lg d-flex align-items-center justify-content-center justify-content-lg-start">
+					<h2>Bernardino Villagra</h2>
+					<span class="icono icon-dot">Desarrollador Web</span>
+				</div>
+				<!-- Menú -->
+				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+					<a href="#" class="c-1 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Portafolio</span>
+							<i class="icono icon-briefcase"></i>
+						</div>
+					</a>
+					<a href="#" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Acerca de</span>
+							<i class="icono icon-user"></i>
+						</div>
+					</a>
+					<a href="#" class="c-3 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Contacto</span>
+							<i class="icono icon-mail"></i>
+						</div>
+					</a>	
+				</nav>
+			</div> <!-- Menu -->
+			<!-- Carousel -->
+			<div class="row slider">
+				<div class="col">
+					<div class="carousel slide" id="slider" data-ride="carousel">
+						<!-- indicadores del slider -->
+						<ol class="carousel-indicators">
+							<li data-target="#slider" data-slide-to="0" class="active"></li>
+							<li data-target="#slider" data-slide-to="1"></li>
+							<li data-target="#slider" data-slide-to="2"></li>
+						</ol>
+						<!-- Carouse -->
+						<div class="carousel-inner role="listbox"">
+							<div class="carousel-item active">
+								<img src="img/slider.jpg" class="d-block img-fluid" alt="Slider numero uno">
+							</div>
+							<div class="carousel-item">
+								<img src="img/slider-1.jpg" class="d-block img-fluid" alt="Slider numero dos">
+							</div>
+							<div class="carousel-item">
+								<img src="img/slider-2.jpg" class="d-block img-fluid" alt="Slider numero tres">
+							</div>
+						</div>
+						<!-- Controladores del carousel -->
+						<a href="#slider" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a href="#slider" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Contenido principal del sitio -->
+	<main>
+		<div class="container">
+			<!-- Seccion portafolio -->
+			<div class="row portafolio">
+				<div class="col">
+					<h2 class="titulo">
+						Portafolio
+					</h2>
+					<div class="row galeria justify-content-center">
+						<div class="contenedor-img col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/portafolio.jpg" class="imagen img-fluid" alt="">
+							</a>
+						</div>
+						<div class="contenedor-img col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/portafolio-3.jpg" class="imagen img-fluid" alt="">
+							</a>
+						</div>
+					
+						<div class="contenedor-img col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/portafolio-3.jpg" class="imagen img-fluid" alt="">
+							</a>
+						</div>
+						<div class="contenedor-img col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/portafolio.jpg" class="imagen img-fluid" alt="">
+							</a>
+						</div>
+
+						<div class="contenedor-img col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/portafolio.jpg" class="imagen img-fluid" alt="">
+							</a>
+						</div>
+						<div class="contenedor-img col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/portafolio.jpg" class="imagen img-fluid" alt="">
+							</a>
+						</div>
+						<div class="contenedor-img col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/portafolio.jpg" class="imagen img-fluid" alt="">
+							</a>
+						</div>
+						<!-- Ventana modal -->
+						<div class="modal fade" id="modal">
+							<div class="modal-dialog d-flex justify-content-center align-items-center">
+								<div class="modal-content">
+									<img src="img/portafolio.jpg" alt="" id="imagen-modal">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Acerca de -->
+			<div class="row acerca-de align-items-center">
+				<div class="col-12 col-lg-4 foto">
+					<img src="img/avatar.jpg" class="rounded-circle img-fluid" alt="Imagen del Desarrollador">
+					<p class="nombre">
+						Bernardino Villagra
+					</p>
+				</div>
+				<div class="col-12 col-lg-8 info">
+					<h2 class="titulo">
+						Acerca de
+					</h2>
+					<p class="resumen">
+						Ingeniero en Informática. Desarrollador Web. Entusiasta de la teconología.
+					</p>
+					<p class="resumen">
+						¡Hola! Mi nombre es Bernardino Villagra. Nací hace 26 años en Gral. Resquín (Paraguay). Estudié Ingeniería en Informática en la UNDP y sigo aprendiendo acerca de nuevas tecnologias en sitios de educación online.
+					</p>
+					<!-- Barras de skills -->
+					<p class="label">
+						HTML
+					</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 95%;">
+							95%
+						</div>
+					</div>
+					<p class="label">
+						CSS
+					</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 92%;">
+							92%
+						</div>
+					</div>
+					<p class="label">
+						JAVASCRIPT
+					</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%;">
+							80%
+						</div>
+					</div>
+					<p class="label">
+						PHP
+					</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 83%;">
+							83%
+						</div>
+					</div>
+					<p class="label">
+						BASE DE DATOS
+					</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 97%;">
+							97%
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Seccion de contacto -->
+			<div class="row contacto justify-content-center">
+				<div class="col-12 col-lg-8">
+					<h2 class="titulo">
+						Contacto
+					</h2>
+					<form action="" class="formulario">
+						<div class="form-group row">
+							<div class="col-12 col-md-6">
+								<input type="text" name="nombre" placeholder="Nombre">
+							</div>
+							<div class="col-12 col-md-6">
+								<input type="email" name="correo" placeholder="correo">
+							</div>
+						</div>
+						<textarea name="mensaje" placeholder="Mensaje"></textarea>
+						<div class="form-group d-flex justify-content-center">
+							<input type="submit" class="boton" value="Enviar">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Pie de pagina -->
+	<footer class="container">
+		<div class="row redes-sociales justify-content-center">
+			<div class="col-auto">
+				<a href="https://twitter.com/villagrabaez" class="icono twitter icon-twitter"></a>
+				<a href="https://facebook.com/villagrabaez" class="icono facebook icon-facebook"></a>
+				<a href="https://instagram.com/villagrabaez" class="icono instagram icon-instagram"></a>
+			</div>
+		</div>
+		<p class="copy py-3 text-center">2019 - Bernardino Villagra Báez</p>
+	</footer>
+	<!-- Archivos JavaScript Necesarios Para Bootstrap -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
